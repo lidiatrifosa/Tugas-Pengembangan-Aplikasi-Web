@@ -1,0 +1,9 @@
+{
+  "name": "railway/agenda-mahasiswa",
+  "description": "Aplikasi Agenda Digital untuk Mahasiswa",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*"
+  }
+}
