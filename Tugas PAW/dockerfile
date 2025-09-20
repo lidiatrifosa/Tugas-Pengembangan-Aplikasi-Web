@@ -1,0 +1,11 @@
+# Gunakan image PHP resmi
+FROM php:8.2-apache
+
+# Salin kode aplikasi ke container
+COPY . /var/www/html/
+
+# Aktifkan mod rewrite Apache
+RUN a2enmod rewrite
+
+# Set permissions yang tepat
+RUN chown -R www-data:www-data /var/www/html
